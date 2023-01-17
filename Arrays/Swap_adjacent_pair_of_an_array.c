@@ -11,7 +11,7 @@ int main(){
         scanf("%d",&a[i]);
     }
     printf("\n");
-    for(int i=0;i<n;i+=2)
+    for(int i=0;i<n-1;i+=2)
     {
         temp=a[i];
         a[i]=a[i+1];
